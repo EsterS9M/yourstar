@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+  }
+  
+  body {
+    background: url(./assets/capa-3.gif) no-repeat top center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .painel {
+    width: 90vw;
+    color: gray;
+    max-width: 500px;
+    background: linear-gradient(rgba(74, 73, 73, 0.352), rgba(54, 3, 81, 0.485));
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  button {
+   background-color: transparent;
+  }
+  
+  #Sim, #Nao {
+    color: white;
+    font-size: 15px;
+    font-family: 'Arial', 'Verdana';
+    background-color: purple;
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin: 20px 0px;
+  }
